@@ -1,6 +1,6 @@
 module ApplicationHelper
 
-  def full_tile (page_title = '')
+  def full_tile page_title
     base_title = "RoR Tutorial Sample App"
 
     if page_title.empty?

@@ -21,3 +21,43 @@
 
 en:
   hello: "Hello world"
+
+  layouts:
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      author: "manhnv"
+      introduction: "RoR sample app"
+
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Login"
+      app_name: "Sample App"
+    application:
+
+  static_pages:
+    about:
+      title: "About"
+    contact:
+      title: "Contact"
+    help:
+      title: "Help"
+    home:
+      title: "Home"
+      wellcom_message: "Welcome to the Sample App"
+      description: "This is the home page for the Ruby on Rails Tutorial sample application."
+      btn_signup: "Sign Up"
+
+  users:
+    new:
+      title: "Sign Up"
+      label:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirm: "Password Confirm"
+        btn_submmit: "Create my account"
+    show:
+      title:

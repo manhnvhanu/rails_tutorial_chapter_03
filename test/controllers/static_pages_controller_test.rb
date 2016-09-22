@@ -1,7 +1,6 @@
-require 'test_helper'
+require "test_helper"
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
-
 
   test "should get home" do
     get root_path
@@ -30,8 +29,5 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "Contact | RoR Tutorial Sample App"
 
   end
-
-
-
 
 end

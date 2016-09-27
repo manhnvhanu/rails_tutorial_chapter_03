@@ -49,6 +49,7 @@ en:
   sessions:
     new:
       title: "Log In"
+      remember_me: "Remember Me"
       label:
         email: "Email"
         password: "Password"

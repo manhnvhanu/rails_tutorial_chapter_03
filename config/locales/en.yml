@@ -18,6 +18,7 @@ en:
       setting: "Settings"
       log_out: "Log Out"
       account: "Account"
+      all_users: "Users"
 
     application:
 
@@ -45,7 +46,19 @@ en:
         btn_submmit: "Create my account"
     show:
       title:
-      title:
+    edit:
+      title: "Edit Profile"
+      description: "Update your profile"
+      label:
+        btn_save: "Save Changes"
+        btn_gravatar: "Change"
+    index:
+      title: "All Users"
+      description: "All Users"
+    user:
+      delete: "Delete"
+      confirm2del: "Are you sure?"
+      delete_method: "delete"
   sessions:
     new:
       title: "Log In"

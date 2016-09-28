@@ -1,0 +1,8 @@
+<p><%= t ".hello" + @user.name %>,</p>
+
+<p>
+  <%= t ".text" %>
+</p>
+
+<%= link_to (t ".activate"),
+  edit_account_activation_url(@user.activation_token, semail: @user.email) %>

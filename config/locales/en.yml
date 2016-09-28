@@ -69,3 +69,25 @@ en:
         btn_login: "Log In"
       signup_message: "New User?"
       signup_link:  "Sign Up now"
+
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      activate: "Activate"
+      hello: "Dear"
+      text: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
+      activation_confirm: "Please check your email to activate your account."
+    password_reset:
+      heading: "Password reset"
+      greeting:
+      hello: "Dear"
+  flash:
+    delete_user: "User Deleted"
+    update_profile: "Profile Updated"
+    prompt2login: "Please log in"
+    invalid_credential: "Invalid email/password combination"
+    success_activation: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+    account_not_activated_message: "Account not activated.
+      Check your email for the activation link."

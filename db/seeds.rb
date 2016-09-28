@@ -7,16 +7,21 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create!(name:  "Manh Nguyen Van",
-  email: "example@manhnv.com",
-  password: "foobar",
-  password_confirmation: "foobar")
+  email: "manhnvhanu@mgmail.com",
+  password: "123456",
+  password_confirmation: "123456",
+  admin:     true,
+  activated: true,
+  activated_at: Time.zone.now)
 
-80.times do |n|
+5.times do |n|
   name  = Faker::Name.name
-  email = "manhnv-#{n+1}@manhnv.com"
-  password = "password"
+  email = "manhnv#{n+1}@manhnv.com"
+  password = "123456"
   User.create! name: name,
     email: email,
     password: password,
-    password_confirmation: password
+    password_confirmation: password,
+    activated: true,
+    activated_at: Time.zone.now
 end

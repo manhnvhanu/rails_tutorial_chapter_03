@@ -113,3 +113,13 @@ en:
     empty_password: "Can't be emptied"
     success_reset_password: "Password has been reset."
     expired_reset_password_request: "Password reset has expired."
+
+  micropost:
+    posted: "Posted"
+    microposts: "Microposts"
+    micropost_created: "Micropost Created"
+    micropost_deleted: "Micropost Deleted"
+    image_size_error: "Image should be less than 5MB"
+    ago: "ago."
+    delete: "Delete"
+    confirm2delete_post: "Are you sure?"

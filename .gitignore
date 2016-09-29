@@ -19,6 +19,7 @@
 !/tmp/.keep
 .idea/*
 .idea/.*
+db/*.rb
 
 # Ignore Byebug command history file.
 .byebug_history

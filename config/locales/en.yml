@@ -59,6 +59,7 @@ en:
       delete: "Delete"
       confirm2del: "Are you sure?"
       delete_method: "delete"
+
   sessions:
     new:
       title: "Log In"
@@ -79,9 +80,25 @@ en:
         Click on the link below to activate your account:"
       activation_confirm: "Please check your email to activate your account."
     password_reset:
+      subject: "Password reset"
       heading: "Password reset"
       greeting:
       hello: "Dear"
+      prompt2click: "To reset your password click the link below:"
+      expired_request_message: "This link will expire in two hours."
+      not_request_message: "If you did not request your password
+        to be reset, please ignore this email and
+        your password will stay as it is."
+
+  password_resets:
+    edit:
+      title:  "Update Password"
+      password_confirmation: "Confirmation"
+      btn_update_password: "Update Password"
+    new:
+      title: "Forgot Password"
+      btn_submit: "Submit"
+
   flash:
     delete_user: "User Deleted"
     update_profile: "Profile Updated"
@@ -91,3 +108,18 @@ en:
     invalid_activation_link: "Invalid activation link"
     account_not_activated_message: "Account not activated.
       Check your email for the activation link."
+    reset_password_email_sent: "Email sent with password reset instructions"
+    email_not_found: "Email address not found"
+    empty_password: "Can't be emptied"
+    success_reset_password: "Password has been reset."
+    expired_reset_password_request: "Password reset has expired."
+
+  micropost:
+    posted: "Posted"
+    microposts: "Microposts"
+    micropost_created: "Micropost Created"
+    micropost_deleted: "Micropost Deleted"
+    image_size_error: "Image should be less than 5MB"
+    ago: "ago."
+    delete: "Delete"
+    confirm2delete_post: "Are you sure?"
